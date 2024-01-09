@@ -1,0 +1,273 @@
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.banner-heading p {
+  font-family: 'Roboto';
+  font-size: 45px;
+  font-weight: 200;
+  line-height: 48px;
+}
+
+.banner-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.banner-description {
+  width: 100%;
+  max-width: 950px;
+  margin: 20px auto;
+  opacity: 0.8;
+}
+
+.banner-description p {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+}
+
+.submit-button {
+  width: 100%;
+  font-family: 'Poppins';
+  background-color: white;
+  color: black;
+  padding: 10px 35px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .banner-heading p {
+    font-size: 20px;
+  }
+
+  .banner-description {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .submit-button {
+    max-width: 100%;
+  }
+}
+
+
+
+/* Row Post Container */
+
+.rowpost-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.rowpost-card {
+  width: 347px;
+  height: auto;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+
+}
+
+.rowpost-card img {
+  width: 347px;
+  height: 347px;
+}
+
+.rowpost-card:hover {
+  transform: scale(1.05);
+}
+
+.post-image {
+  width: 100%;
+}
+
+.rowpost-card p {
+  font-family: Roboto;
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 22.27px;
+  margin: 15px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .rowpost-card {
+    width: 100%;
+  }
+}
+
+
+/* Contribution Section */
+
+.contribution-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.contribution-header {
+  max-width: 950px;
+  text-align: center;
+}
+
+.contribution-header p {
+
+  margin-bottom: 20px;
+}
+
+.contribution-header-heading {
+  font-family: 'Roboto';
+  font-weight: 200;
+  font-size: 42px;
+  line-height: 48px;
+}
+
+.contribution-header-detail {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+.contribution-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contribution-detail {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.contribution-detail p {
+  font-family: Roboto;
+  font-size: 80px;
+  font-weight: 200;
+  line-height: 18px;
+  letter-spacing: 0em;
+
+}
+
+.contribution-detail span {
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+
+
+
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .contribution-details {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contribution-detail {
+    width: 100%;
+  }
+}
+
+
+/* Contact Page */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-text-heading {
+  font-family: 'Roboto';
+  font-size: 45px;
+  font-weight: 300;
+  line-height: 48px;
+  letter-spacing: 0.9599999785423279px;
+}
+
+.contact-text-details{
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: center;
+  
+}
+
+.button-group {
+  display: flex;
+}
+
+.skype-button,
+.email-button {
+  padding: 10px 20px;
+  border: 1px solid;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.skype-button {
+  background-color: black;
+  margin-right: 10px;
+  color: white;
+  border-color: white;
+}
+
+.email-button {
+  background-color: white;
+  color: black;
+}
+
+.skype-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.email-button:hover {
+  background-color: black;
+  color: white;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer p{
+  font-family: Roboto;
+font-size: 19px;
+font-weight: 300;
+line-height: 26px;
+letter-spacing: 0em;
+}
